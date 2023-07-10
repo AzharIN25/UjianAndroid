@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
                     for (int i = 0; i < doubleisian_nama_umur; i++) {
                         String status;
-//                        pengkondisian umur by Azhar Iflahun N
+//                        pengkondisian umur by Azhar
                         if (doubleisian_nama_umur >= 0 && doubleisian_nama_umur <= 10) {
                             status = "anak";
                         } else if (doubleisian_nama_umur >= 11 && doubleisian_nama_umur <= 20) {
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                         }
 
                         if (i % 2 == 0) {
-                            // Menambahkan angka incrementing dan status di belakang nama hanya untuk nomor genap BY Azhar Iflahun N
+                            // Menambahkan angka incrementing dan status di belakang nama hanya untuk nomor genap BY AZHAR
                             String nama_dengan_status = i + " " + nama_lengkap + ". Status : " + status;
                             daftar_nama.add(nama_dengan_status);
                         }
